@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MinimalApi.Dominio.Entidades;
 
 
-    public class Administrador
+    public class Veiculo
     {
          [Key] 
          [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,13 +12,10 @@ namespace MinimalApi.Dominio.Entidades;
 
          [Required]
          [StringLength(255)]
-         public string Email {set;get;} = default!;
+         public string Nome {set;get;} = default!;
 
-         [Required]
          [StringLength(60)]
-         public string Senha {set;get;} = default!; 
+         public string Marca {set;get;} = default!; 
 
-         [Required]
-         [StringLength(12)]
-         public string Perfil {set;get;} = default!; 
+         public int Ano {set;get;} = default!; 
     }

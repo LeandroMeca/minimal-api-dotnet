@@ -15,6 +15,7 @@ public class DbContexto : DbContext
     }
 
     public DbSet<Administrador> Administradores {get;set;} = default!;
+    public DbSet<Veiculo> Veiculos {get;set;} = default!;
 
     protected override void OnModelCreating(ModelBuilder ModelBuilder){
         ModelBuilder.Entity<Administrador>().HasData(
