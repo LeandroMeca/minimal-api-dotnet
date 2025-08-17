@@ -125,3 +125,11 @@ C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Swashbuckle.A
 C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Leandro\Documents\projetosC#\minimal-api\obj\Debug\net9.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Leandro\Documents\projetosC#\minimal-api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

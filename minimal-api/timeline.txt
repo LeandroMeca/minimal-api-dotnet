@@ -1,1 +1,14 @@
 post para criar veiculo
+
+
+comandos
+dotnet new web -o minimal-api
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.3
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0-rc.1.efcore.9.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.3
+dotnet tool install --global dotnet-ef --version 9.0.3
+dotnet build
+dotnet run
+dotnet add package Swashbuckle.AspNetCore --version 9.0.3
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 9.0.3
+dotnet watch run
