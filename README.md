@@ -1,4 +1,4 @@
-Serviço de Cadastro com Minimal API em C#
+<h1>Serviço de Cadastro com Minimal API em C#</H1>
 Visão Geral do Projeto
 <p>
 Este projeto tem como objetivo principal demonstrar a agilidade e eficiência da abordagem Minimal API em C# para a criação de serviços web. O serviço desenvolvido foca na funcionalidade de cadastro de dados em um banco de dados MySQL, com um sistema de autenticação de usuário utilizando JWT para garantir um controle de acesso em nível gerencial.
