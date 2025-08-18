@@ -1,0 +1,10 @@
+
+
+testes 
+de unidade
+de persistencia
+request
+
+comandos
+
+docker exec -i mysql8.1 mysql -uroot -proot minimal_api-test < minimal_api.dump.sql
