@@ -48,3 +48,42 @@ minimal-api-dotnet/
 ├── Services/        # Regras de negócio e autenticação
 ├── Program.cs       # Configuração e inicialização da API
 └── appsettings.json # Configurações de ambiente e conexão
+```
+
+## ▶️ Como Executar o Projeto
+
+### 1. Pré-requisitos
+* **.NET SDK** instalado.
+* Instância do **MySQL** rodando.
+
+### 2. Instalação
+Clone o repositório e acesse a pasta do projeto:
+```bash
+git clone https://github.com/LeandroMeca/minimal-api-dotnet.git
+cd minimal-api-dotnet
+
+```
+### 3. Configuração
+* Edite o arquivo appsettings.json com suas credenciais do banco:
+
+```javascript
+"ConnectionStrings": {
+  "DefaultConnection": "server=localhost;database=SEU_BANCO;user=SEU_USUARIO;password=SUA_SENHA"
+}
+```
+### 4. Execução
+
+```bash
+dotnet run
+```
+
+## 📄 Documentação da API
+* Após iniciar a aplicação, acesse a interface do Swagger para visualizar os endpoints:
+* URL padrão: http://localhost:xxxx/swagger
+
+## 🔐 Autenticação
+A API utiliza o padrão JWT. Para acessar rotas protegidas:
+Realize a chamada no endpoint de login.
+Copie o token retornado.
+Adicione ao Header das próximas requisições:
+Authorization: Bearer <SEU_TOKEN>
