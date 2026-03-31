@@ -1,33 +1,50 @@
-<h1>Serviço de Cadastro com Minimal API em C#</H1>
-<h2>Visão Geral do Projeto</h2>
-<p>
-Este projeto tem como objetivo principal demonstrar a agilidade e eficiência da abordagem Minimal API em C# para a criação de serviços web. O serviço desenvolvido foca na funcionalidade de cadastro de dados em um banco de dados MySQL, com um sistema de autenticação de usuário utilizando JWT para garantir um controle de acesso em nível gerencial.
-</p>
-<p>
-O projeto explora os seguintes conceitos: a velocidade de desenvolvimento proporcionada pelo Minimal API, implementação de autenticação robusta com JWT, e a utilização de DTOs (Data Transfer Objects) para reforçar a segurança e a comunicação entre o cliente e a API.
-</p>
-<h2>Tecnologias Utilizadas</h2>
-<p>
-As seguintes tecnologias foram utilizadas para a construção deste serviço: .NET, C#, MySQL, Swagger, JWT e GitHub.
-</p>
-<h2>Ferramentas de Desenvolvimento</h2>
-<p>
-As seguintes ferramentas foram essenciais para o desenvolvimento: Visual Studio Code (VSCode), Postman, Cmder e MySQL Workbench.
-</p>
-<h2>Como Executar o Projeto</h2>
-<p>
-Para executar o projeto, você deve primeiro clonar o repositório, configurar o banco de dados MySQL atualizando a string de conexão no arquivo appsettings.json, e então iniciar a aplicação. Após a execução, a documentação da API estará acessível via Swagger UI.
-</p>
-<h2>Conclusão</h2>
-<p>
-Este projeto é uma excelente demonstração de como a Minimal API em C# pode otimizar o processo de desenvolvimento de APIs. Ao eliminar a necessidade de uma arquitetura complexa, é possível focar em aspectos cruciais como a lógica de negócio, a segurança (através da autenticação com JWT) e a clareza do código, o que são benefícios diretos da abordagem minimalista.
-</p>
+# 🚀 Serviço de Cadastro com Minimal API (.NET)
 
+API desenvolvida em **C# com .NET Minimal API** com foco em performance, simplicidade e boas práticas de desenvolvimento.  
+O projeto implementa um serviço de cadastro com autenticação via JWT e integração com banco de dados MySQL.
 
+---
 
+## 📌 Sobre o Projeto
 
+Este projeto foi criado com o objetivo de demonstrar:
 
+* Criação de APIs modernas com **Minimal API**
+* Implementação de autenticação segura com **JWT**
+* Uso de **DTOs (Data Transfer Objects)** para organização e segurança dos dados
+* Integração com banco de dados **MySQL**
+* Documentação automática com **Swagger (OpenAPI)**
 
+---
 
+## 🛠️ Tecnologias Utilizadas
 
+* **.NET** (C#)
+* **MySQL** (Banco de dados relacional)
+* **JWT** (JSON Web Token)
+* **Swagger** (Documentação OpenAPI)
+* **Git & GitHub**
 
+---
+
+## ⚙️ Funcionalidades
+
+* ✅ **Cadastro de dados:** Persistência de informações no banco.
+* 🔐 **Autenticação com JWT:** Segurança para as rotas da aplicação.
+* 📄 **Swagger UI:** Documentação interativa para teste de endpoints.
+* 🔄 **DTOs:** Abstração da camada de dados para comunicação segura.
+* 🔒 **Middlewares de Segurança:** Controle de acesso a endpoints protegidos.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+minimal-api-dotnet/
+│
+├── Endpoints/       # Definição das rotas e lógica de entrada
+├── Models/          # Entidades do banco de dados
+├── DTOs/            # Objetos de transferência de dados
+├── Services/        # Regras de negócio e autenticação
+├── Program.cs       # Configuração e inicialização da API
+└── appsettings.json # Configurações de ambiente e conexão
