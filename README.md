@@ -82,8 +82,26 @@ dotnet run
 * URL padrão: http://localhost:xxxx/swagger
 
 ## 🔐 Autenticação
-A API utiliza o padrão JWT. Para acessar rotas protegidas:
-Realize a chamada no endpoint de login.
-Copie o token retornado.
-Adicione ao Header das próximas requisições:
-Authorization: Bearer <SEU_TOKEN>
+* A API utiliza o padrão JWT. Para acessar rotas protegidas:
+* Realize a chamada no endpoint de login.
+* Copie o token retornado.
+* Adicione ao Header das próximas requisições:
+* Authorization: Bearer <SEU_TOKEN>
+
+### Exemplo de header:
+```bash
+Authorization: Bearer SEU_TOKEN
+```
+
+## 🤝 Contribuição
+* Contribuições são muito bem-vindas!
+* Faça um Fork do projeto.
+* Crie uma Branch para sua modificação (git checkout -b feature/nova-feature).
+* Faça o Commit (git commit -m 'Adicionando nova feature').
+* Push para a Branch (git push origin feature/nova-feature).
+* Abra um Pull Request.
+
+## 👨‍💻 Autor
+* Leandro Meca - GitHub
+## 📝 Licença
+* Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
