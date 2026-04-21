@@ -1,4 +1,4 @@
-# 🚀 Serviço de Cadastro com Minimal API (.NET)
+# 🚀 UserAccessService
 
 API desenvolvida em **C# com .NET Minimal API** com foco em performance, simplicidade e boas práticas de desenvolvimento.  
 O projeto implementa um serviço de cadastro com autenticação via JWT e integração com banco de dados MySQL.
